@@ -2,7 +2,7 @@
 
 // Theme setup
 function theme_setup() {
-	load_theme_textdomain( 'wlc' );
+	load_theme_textdomain( 'dlrco' );
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'custom-logo' );
