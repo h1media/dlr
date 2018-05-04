@@ -4,8 +4,8 @@ body {
 }
 
 .header {
-  max-width: $maxwidth;
-  background: #fff url('bcg1.png') no-repeat bottom right;
+  width: $maxwidth;
+  background: #fff url('bcg2.png') no-repeat bottom right;
 
   .logo {
     padding: 30px 0 16px 15px;
@@ -13,7 +13,7 @@ body {
 }
 
 .main-holder {
-  max-width: $maxwidth;
+  width: $maxwidth;
   background-color:$spl2_primary;
   
   form {
@@ -26,15 +26,20 @@ body {
       }  
     }
 
-    .card {
+    .cards {
 
-      .card-img-overlay {
-        text-align: center;
+      .card {
+        padding-bottom: 10px;
+
+        .card-img-overlay {
+          text-align: center;
+          padding:$card-img-overlay-padding;
+        }
       }
     }
 
     label.form-check-label {
-      font-size: $basesize;
+      font-size:$basesize;
     }
     
     button {

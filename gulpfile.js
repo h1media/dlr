@@ -1,5 +1,5 @@
 var config = {
-    devUrl: 'dlrco.loc.com',
+    devUrl: 'localhost/dlrco/',
     sass: 'assets/scss/**/*.{scss,sass}',
     sassFolder: 'assets/sass/',
     css: 'dist/css',
