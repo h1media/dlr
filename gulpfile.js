@@ -1,5 +1,5 @@
 var config = {
-    devUrl: 'alkohole.dev',
+    devUrl: 'dlrco.loc.com',
     sass: 'assets/scss/**/*.{scss,sass}',
     sassFolder: 'assets/sass/',
     css: 'dist/css',

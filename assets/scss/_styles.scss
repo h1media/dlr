@@ -1,0 +1,44 @@
+body {
+  margin-top: 100px;
+  color: white;
+}
+
+.header {
+  max-width: $maxwidth;
+  background: #fff url('bcg1.png') no-repeat bottom right;
+
+  .logo {
+    padding: 30px 0 16px 15px;
+  }
+}
+
+.main-holder {
+  max-width: $maxwidth;
+  background-color:$spl2_primary;
+  
+  form {
+    
+    .wifi {
+      
+      img {
+        padding: 48px 0;
+        cursor: pointer;
+      }  
+    }
+
+    .card {
+
+      .card-img-overlay {
+        text-align: center;
+      }
+    }
+
+    label.form-check-label {
+      font-size: $basesize;
+    }
+    
+    button {
+      display: none;
+    }
+  }
+}
