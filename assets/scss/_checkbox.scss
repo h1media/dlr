@@ -1,0 +1,26 @@
+.checkbox {
+
+  .form-check-input {
+    margin-top: 1px;
+  }
+
+  label.form-check-label {
+    font-size:$basesize;
+  }
+
+  .invalid-feedback {
+    color: $red;
+    background: white;
+    flex:none;
+  }
+
+  .btn {
+    font-size:$basesize;
+    margin-left: 5px;
+    color: $black;
+    font-weight: bold;
+    padding: 2px 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+}

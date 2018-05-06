@@ -1,13 +1,19 @@
 //colors
-$spl1_primary: #f58021;
-$spl2_primary: #d6108b;
-$spl3_primary: #15a1af;
+$spl_sf_primary: #f58020;
+$spl_dl_primary: #d6108b;
+$spl_mp_primary: #13a1af;
 
 //fonts
-$basesize: 8px;
+$basesize: 7px;
+$font-family-sans-serif: "Segoe UI";
 
 //vars
 $maxwidth: 290px;
 
 //bootstrap
 $card-img-overlay-padding: 0;
+
+//resize items
+$logowidth:117px;
+$wifiwidth:136px;
+$providedwidth:86px;

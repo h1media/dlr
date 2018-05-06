@@ -1,0 +1,37 @@
+.holder.sf {
+
+  .header {
+    background: #fff url('../img/bcg_sf.png') no-repeat bottom right;
+  }
+
+  .main-holder {
+    background-color: $spl_sf_primary;
+  }
+}
+
+.holder.dl {
+
+  .header {
+    background: #fff url('../img/bcg_dl.png') no-repeat bottom right;
+  }
+
+  .main-holder {
+    background-color: $spl_dl_primary;
+  }
+}
+
+.holder.mp {
+
+  .header {
+    background: #fff url('../img/bcg_mp.png') no-repeat bottom right;
+  }
+
+  .main-holder {
+    background-color: $spl_mp_primary;
+
+    .cards.only{
+      margin-top:65px;
+      margin-bottom:30px;
+    }
+  }
+}
