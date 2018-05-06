@@ -25,16 +25,16 @@ while ( have_posts() ) {
 					<form method="post" class="needs-validation">
 						<div class="form-group d-flex justify-content-center wifi">
 							<label for="submitButton">
-								<img src="<?php echo get_template_directory_uri(); ?>/dist/img/wifi_sf.png"/>
+								<img src="<?php echo get_template_directory_uri(); ?>/dist/img/wifi_sf.gif" alt="Free WiFi service" />
 							</label>
 						</div>
 						<div class="row cards">
 							<div class="col-6">
 								<a href="#">
 									<div class="card">
-										<img class="card-img" src="<?php echo get_template_directory_uri(); ?>/dist/img/Website-bcg.png" alt="Card image">
+										<img class="card-img" src="<?php echo get_template_directory_uri(); ?>/dist/img/Website-bcg.png" alt="Website background" />
 										<div class="card-img-overlay d-flex justify-content-center align-items-center">
-											<img src="<?php echo get_template_directory_uri(); ?>/dist/img/Icons-home.png"/>
+											<img src="<?php echo get_template_directory_uri(); ?>/dist/img/Icons-home.png" alt="Website" />
 										</div>
 									</div>
 								</a>
@@ -42,9 +42,9 @@ while ( have_posts() ) {
 							<div class="col-6">
 								<a href="#">
 									<div class="card">
-										<img class="card-img" src="<?php echo get_template_directory_uri(); ?>/dist/img/Events-bcg.png" alt="Card image">
+										<img class="card-img" src="<?php echo get_template_directory_uri(); ?>/dist/img/Events-bcg.png" alt="Events background" />
 										<div class="card-img-overlay d-flex justify-content-center align-items-center">
-											<img src="<?php echo get_template_directory_uri(); ?>/dist/img/Icons-calendar.png"/>
+											<img src="<?php echo get_template_directory_uri(); ?>/dist/img/Icons-calendar.png" alt="Events" />
 										</div>
 									</div>
 								</a>
@@ -54,10 +54,10 @@ while ( have_posts() ) {
 							<div class="col-12">
 								<a href="#">
 									<div class="card">
-										<img class="card-img" src="<?php echo get_template_directory_uri(); ?>/dist/img/Vouchers-bcg.png" alt="Card image">
+										<img class="card-img" src="<?php echo get_template_directory_uri(); ?>/dist/img/Vouchers-bcg.png" alt="Vouchers background" />
 										<div class="card-img-overlay d-flex justify-content-end align-items-center">
 											<div class="col-6 offset-6">
-												<img class="icon-euro" src="<?php echo get_template_directory_uri(); ?>/dist/img/Icons-euro.png"/>
+												<img class="icon-euro" src="<?php echo get_template_directory_uri(); ?>/dist/img/Icons-euro.png" alt="Vouchers" />
 											</div>
 										</div>
 									</div>
@@ -76,7 +76,7 @@ while ( have_posts() ) {
 						<button type="submit" class="btn btn-primary" id="submitButton" name="submit-sf">Submit</button>
 					</form>
 					<div class="col-12 d-flex justify-content-center align-items-center footer">
-						<img src="<?php echo get_template_directory_uri(); ?>/dist/img/Provide-by-CISCO.png"/>
+						<img src="<?php echo get_template_directory_uri(); ?>/dist/img/Provide-by-CISCO.png" alt="Provided by CISCO" />
 					</div>
 				</div>
 			</div>
